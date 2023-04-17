@@ -1,2 +1,2 @@
-export default "title_default"
-export const age = "title_age"
+exports.name = "title_name"
+exports.age = "title_age"
