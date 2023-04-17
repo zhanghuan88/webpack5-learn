@@ -1,0 +1,19 @@
+{
+  "name": "webpack5-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "use:build": "pnpm -F webpack-use build",
+    "use:dev": "pnpm -F webpack-use dev"
+  },
+  "dependencies": {
+  },
+  "keywords": [],
+  "author": "enel",
+  "license": "ISC",
+  "volta": {
+    "node": "18.5.0",
+    "pnpm": "7.29.1"
+  }
+}
