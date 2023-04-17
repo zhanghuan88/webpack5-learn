@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "use:build": "pnpm -F webpack-use build",
-    "use:dev": "pnpm -F webpack-use dev"
+    "use:dev": "pnpm -F webpack-use dev",
+    "bundle:build": "pnpm -F bundle-learn build",
+    "bundle:dev": "pnpm -F bundle-learn dev"
   },
   "dependencies": {
   },
