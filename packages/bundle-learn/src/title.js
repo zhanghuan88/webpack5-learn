@@ -1,2 +1,1 @@
-exports.name = "title_name"
-exports.age = "title_age"
+export default "title_default";

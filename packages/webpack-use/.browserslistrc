@@ -1,7 +1,5 @@
 [production staging]
-> 1%
-not dead
-not op_mini all
+last 1 chrome version
 
 [development]
 last 1 chrome version

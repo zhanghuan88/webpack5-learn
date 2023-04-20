@@ -1,5 +1,5 @@
-import title, {age} from "./title.js"
-
-console.log(title)
-console.log(age)
-
+document.addEventListener("click", () => {
+    import("./title").then(res => {
+        console.log(res)
+    })
+})
