@@ -17,7 +17,7 @@ module.exports = {
                         plugins: [
                             [
                                 path.resolve(__dirname, "plugins/babel-plugin-import.js"),
-                                {
+                                { //配置项
                                     library: "lodash",//只针对lodash库进行处理
                                 }
                             ]

@@ -44,6 +44,14 @@ importers:
       webpack: 5.79.0_webpack-cli@5.0.1
       webpack-cli: 5.0.1_webpack@5.79.0
 
+  packages/flow:
+    specifiers:
+      webpack: ^5.79.0
+      webpack-cli: ^5.0.1
+    dependencies:
+      webpack: 5.79.0_webpack-cli@5.0.1
+      webpack-cli: 5.0.1_webpack@5.79.0
+
   packages/webpack-use:
     specifiers:
       '@babel/core': ^7.21.4
