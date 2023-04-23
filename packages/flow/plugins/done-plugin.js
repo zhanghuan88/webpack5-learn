@@ -1,6 +1,8 @@
  class DonePlugin{
     apply(compiler){
-        console.log(compiler)
+        compiler.hooks.done.tap("DonePlugin",()=>{
+            console.log(compiler)
+        })
     }
 }
 module.exports = DonePlugin

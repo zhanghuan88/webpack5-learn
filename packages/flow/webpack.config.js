@@ -4,12 +4,23 @@ const DonePlugin = require("./plugins/done-plugin.js");
 module.exports = {
     mode: "development",
     devtool: false,
-    entry: "./src/index.js",
+    entry: {
+        entry1: "./src/entry1.js",
+        entry2: "./src/entry2.js",
+    },
     output: {
         path: path.resolve(__dirname, "dist"),
     },
     module: {
-
+        rules: [
+            {
+                test: /\.js$/,
+                use: [
+                    path.resolve(__dirname, "loaders", "logger1-loader.js"),
+                    path.resolve(__dirname, "loaders", "logger2-loader.js")
+                ]
+            }
+        ]
     },
     plugins: [
         new RunPlugin(),
