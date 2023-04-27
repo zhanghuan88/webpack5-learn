@@ -8,12 +8,14 @@ module.exports = {
         entry1: "./src/entry1.js",
         entry2: "./src/entry2.js",
     },
+    output: {
+        path: path.resolve(__dirname, 'build'),
+        filename: "[name].js"
+    },
     resolve: {
         extensions: ['.js', '.jsx', '.json']
     },
-    output: {
-        path: path.resolve(__dirname, "dist"),
-    },
+
     module: {
         rules: [
             {
